@@ -5,7 +5,7 @@ endpoints = {
 flowlog_retention = 90
 stage = "dev"
 enable_flowlog = false
-project = "gitops"
+project = "gitops-test"
 cidr_block = "10.0.0.0/16"
 subnets = {
     publicSubnet    = {cidr = "10.0.1.0/24", type = "public",  az = "ap-northeast-2a"},
